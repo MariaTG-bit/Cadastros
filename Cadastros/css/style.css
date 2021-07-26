@@ -1,0 +1,166 @@
+/** remove pre definitions of html **/ 
+
+*{ 
+
+    margin: 0; 
+
+    padding: 0; 
+
+} 
+
+/** fluid effect on sections **/ 
+
+html { 
+
+    scroll-behavior: smooth; 
+
+} 
+
+ 
+.title{
+
+    background-color: white;
+    
+    height: 25vh; /** view height **/ 
+
+    width: 100%; /** window **/
+    
+    display: flex; 
+
+    justify-content: center; 
+
+    align-items: center;
+
+    color: black; 
+    
+    font-weight:normal;
+  
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    
+
+
+
+}
+
+.section-container{ 
+
+    background-color: white;    
+
+    height: 75vh; /** view height **/ 
+
+    width: 100%; /** window **/ 
+
+    display: flex; 
+
+    justify-content: center; 
+
+    align-items: center; 
+
+} 
+ 
+
+.background-section-one{ 
+
+    background-color: white ; 
+
+    background-attachment: fixed; 
+
+    background-size: cover; /**image gets the size of window **/ 
+
+    justify-content: center; 
+
+    align-items: center; 
+
+} 
+
+.background-section-two{ 
+
+    background-color: white; 
+
+    background-attachment: fixed; 
+
+    background-size: cover; /**image gets the size of window **/  
+
+    justify-content: center; 
+
+    align-items: center; 
+
+} 
+ 
+
+
+.card-container1{ 
+
+    background: white; 
+
+    border-radius: 25px; 
+
+    padding: 25px; 
+
+    max-width: 200px; 
+
+    justify-content: center; 
+
+    align-items: center; 
+
+    font-weight: lighter;
+  
+    font-family: sans-serif;
+
+    
+} 
+
+.card-container2{ 
+
+    background: white; 
+
+    border-radius: 25px; 
+
+    padding: 25px; 
+
+    max-width: 200px; 
+
+    justify-content: center; 
+
+    align-items: center; 
+
+    font-weight: lighter;
+  
+    font-family: sans-serif;
+
+    
+} 
+ 
+
+input{ 
+
+    width: 100%; 
+
+    height: 35px; 
+
+    margin-bottom: 5px; 
+
+    text-align: center; 
+
+    border-radius: 10px; 
+
+    background:rgb(202, 209, 208); 
+
+    color: rgb(0, 0, 0); 
+    
+    font-weight: lighter;
+  
+    font-family:fantasy;
+
+} 
+
+ 
+form{ 
+
+    display: inline; 
+
+} 
+
+
+ 

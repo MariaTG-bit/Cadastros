@@ -1,0 +1,89 @@
+<!DOCTYPE html> 
+
+<html lang="pt-br"> 
+
+<head> 
+    
+    <meta charset="UTF-8"> 
+    
+    <title>OnePage HTML5 e CSS3</title> 
+    
+    <meta name= "viewport" content = "width=device-width, initial-scale=1.0" > 
+
+    <link rel="stylesheet" href="css/style.css"> 
+
+    <title>Cadastramento</title> 
+
+
+
+</head> 
+    <section class = "title">
+        
+        <h1>Sistema de Cadastros</h1>
+       
+    </section>    
+<body> 
+
+    <section class= "section-container background-section-one"> 
+
+        <div class= "card-container1"> 
+
+            <div id="conteúdo1"> 
+                
+            <h3>Cadastro de Clientes</h3>
+
+            <form name= "formulárioCliente" action= " " id= "formulário1"> 
+        
+                <input type = "text" placeholder="nome" id="nome">
+
+                <input type = "text" placeholder="CPF" id="CPF">
+
+                <input type = "text" placeholder="endereço" id="endereço">
+
+                <input type= "text" placeholder= "email" id="email" onblur="emailValidation(formulário1.email)">  
+
+                <input type= "submit" value= "Cadastro de cliente"> 
+            
+            </form>
+
+        </div> 
+
+    </div>
+
+    <div id="msgemail"></div>
+
+    </section>
+ 
+    <section class= "section-container background-section-two"> 
+        
+        <div class= "card-container2"> 
+         
+        <div id="conteúdo2">
+            
+            <h3>Cadastro de Produtos</h3>
+
+            <form name= "formulárioProduto" action= " " id= "formulário2"> 
+        
+                <input type = "text" placeholder="Código" id="cod">
+
+                <input type = "text" placeholder="Quantidade" id="quant">
+
+                <input type = "text" placeholder="Preço" id="preço">
+
+                <input type= "submit" value= "Cadastro de produto"> 
+
+            </form>
+        
+        </div> 
+        
+        </div>
+
+    </section>
+     
+</body> 
+
+<script src="js/script.js"></script> 
+
+<footer></footer> 
+
+</html> 
